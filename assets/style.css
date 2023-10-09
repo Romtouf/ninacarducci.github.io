@@ -59,8 +59,6 @@ body {
 .picture.left::before {
   content: " ";
   background-color: #e5975f;
-  /* width: 374px;
-  height: 329px; */
   position: absolute;
   bottom: 0;
   left: 0;
@@ -97,7 +95,6 @@ body {
 }
 
 #gallery {
-  /*	min-height: 100vh; */
 }
 .title {
   text-align: center;
@@ -209,8 +206,8 @@ body {
 .picture.right::before {
   content: " ";
   background-color: #beb45a;
-  /* width: 374px;
-  height: 329px; */
+  width: 374px;
+  height: 329px;
   position: absolute;
   bottom: 0;
   right: 0;
