@@ -58,6 +58,8 @@ body {
 
 .picture.left::before {
   content: " ";
+  width: 374px;
+  height: 329px;
   background-color: #e5975f;
   position: absolute;
   bottom: 0;
@@ -94,8 +96,6 @@ body {
   font-size: 14px;
 }
 
-#gallery {
-}
 .title {
   text-align: center;
   padding-block: 2em;
