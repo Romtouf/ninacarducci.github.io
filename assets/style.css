@@ -384,9 +384,7 @@ input[type="submit"] {
   form {
     width: 100%;
   }
-  /* .picture {
-    width: none;
-  } */
+ 
   .picture img {
     height: 300px;
     width: 300px;
