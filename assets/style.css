@@ -217,6 +217,7 @@ form {
   flex-direction: column;
   width: 70%;
   align-items: flex-start;
+ 
 }
 
 form input {
@@ -275,6 +276,9 @@ input[type="submit"] {
   #about-me p {
     width: 100%;
   }
+  form {
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 1000px) {
@@ -331,6 +335,7 @@ input[type="submit"] {
     right: 0;
     z-index: -1;
   }
+
   .form-container {
     display: flex;
     justify-content: center;
@@ -370,6 +375,7 @@ input[type="submit"] {
   .service {
     max-width: 90%;
   }
+
   #about,
   #contact {
     padding-inline: 2em;
